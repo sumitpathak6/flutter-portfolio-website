@@ -19,40 +19,43 @@ String resumeLink =
 String contactEmail = "sumit.pathak0606@gmail.com";
 
 String aboutWorkExperience = '''
-Hello I am a freelancer
+I am currently working with Flutter framework for designing and deploying cross platform mobile applications. Along with that, I am also the Campus Representative for Unstop at Sir M Visvesvaraya Institute of Technology, Bengaluru.
 
-He has previously been a speaker at the Flutter Global Summit'21, Flutter Vikings and events across colleges, universities (like VIT Chennai, Vellore, MIT-ADT), and clubs (IEEE APSIT, SFIT, GirlScript, GeeksforGeeks Student Chapter, Google CrowdSource, and more) here in India. 
+Proficient in Java and C++, exploring Spring and SpringBoot framework for Backend Development as of now.
 ''';
 
 String aboutMeSummary = '''
-Aditya is a content creator and has over 5K subscribers on YouTube and a 700+ member community on Discord. 
-📺 YouTube Channel: watch.adityathakur.in
-🚀 Discord Community: discord.adityathakur.in
+Hello, I am a pre-final year student from Sir M Visvesvaraya Institute of Technology pursuing my B.E. in Information Science and Engineering.
+
+📺 LinkedIn: sumit-pathak06
+🚀 GitHub: sumitpathak6
+🚀 Twitter: @SumitPa55268008
+📺 LeetCode: sumitpathak06
 ''';
 
 String location = "Bengaluru, India";
-String website = "adityathakur.in";
-String portfolio = "sumitpathak06";
+String linkedin = "@sumit-pathak06";
+String github = "@sumitpathak6";
 String email = "sumit.pathak0606@gmail.com";
 
 List<Project> projectList = [
   Project(
-      name: "Shades",
+      name: "Virtual Assistant ChatBot",
       description:
-          "Winner IEEE Mandi 'Go Online' Challenge at Electrothon, NIT Hamirpur.",
-      link: "https://github.com/adityathakurxd/shades"),
+          "A Virtual Assistant ChatBot which has the features of Text-to-Speech, powered by OpenAI where it generates text output(ChatGPT-3.5) and image outputs(DALLE AI) to human prompts.",
+      link: "https://github.com/sumitpathak6/virtual-assistant"),
   Project(
-      name: "Fiasco",
+      name: "SportsNewz",
       description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
+          "SportsNewz is a real time news fetching application which displays the latest news from the world of Sports!",
+      link: "https://github.com/sumitpathak6/Sports_News_Application"),
   Project(
-      name: "Fiasco",
+      name: "YourExpense",
       description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
+          "YourExpense is your one-go expense tracking application which can store and manipulate real time expenses into different categories!",
+      link: "https://github.com/sumitpathak6/Expense_Tracker"),
   Project(
       name: "Flutter Portfolio",
       description: "A template for Portfolio",
-      link: "https://github.com/adityathakurxd/flutter-portfolio")
+      link: "https://github.com/sumitpathak6/flutter-portfolio-website")
 ];
