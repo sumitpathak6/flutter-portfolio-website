@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
               Icons.circle_sharp,
@@ -23,13 +24,13 @@ class HomeScreen extends StatelessWidget {
               width: 10,
             ),
             Text(
-              "Untitled UI",
+              "PORTFOLIO WEBSITE",
               style: TextStyle(color: Colors.black),
-            )
+            ),
           ],
         ),
         // foregroundColor: Colors.black,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.purpleAccent[400],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -170,7 +171,7 @@ class HomeScreen extends StatelessWidget {
                                           Row(
                                             children: [
                                               const Icon(
-                                                Icons.circle,
+                                                Icons.pin_drop_outlined,
                                                 size: 16,
                                               ),
                                               const SizedBox(
@@ -235,17 +236,20 @@ class HomeScreen extends StatelessWidget {
                                           const SizedBox(
                                             height: 10,
                                           ),
-                                          Row(
-                                            children: [
-                                              Text(email),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              const Icon(
-                                                Icons.launch,
-                                                size: 16,
-                                              )
-                                            ],
+                                          SingleChildScrollView(
+                                            scrollDirection: Axis.horizontal,
+                                            child: Row(
+                                              children: [
+                                                Text(email),
+                                                const SizedBox(
+                                                  width: 5,
+                                                ),
+                                                const Icon(
+                                                  Icons.launch,
+                                                  size: 16,
+                                                )
+                                              ],
+                                            ),
                                           ),
                                           const SizedBox(
                                             height: 10,
